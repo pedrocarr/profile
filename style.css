@@ -1,0 +1,80 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  text-align: center;
+  background: #cccdcf;
+  color: rgb(43, 46, 39);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: lighter;
+  border-radius: 4px;
+}
+#img {
+  border-radius: 50%;
+  margin: 10px;
+}
+.first {
+  text-align: center;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: 500;
+}
+.img {
+  background-image: url("https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content: center;
+  margin: auto;
+}
+@keyframes header {
+  0% {
+    background-color: antiquewhite;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: seashell;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.par {
+  color: brown;
+}
+.fab {
+  font-size: 50px;
+}
+.fa-github-square {
+  color :#333;
+}
+.fa-twitter-square {
+  color:#1DA1F2;
+}
+.fa-instagram {
+  color:#fb3958;
+}
+.column {
+  box-sizing: border-box;
+  font-size: 18px;
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa-linkedin {
+  color:#2867B2;
+}
+.fa-facebook-square {
+  color:#4267B2;
+}
+.a {
+  text-align:left;
+}
